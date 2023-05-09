@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: rgba(229, 229, 229, 0.3);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  /* navbar starts */
+  .navbar-brand {
+    color: #6070FF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    color: #344563;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+.right-navbar {
+    margin-left: 65%;
+}
