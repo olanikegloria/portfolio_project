@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- navbar starts -->
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -35,6 +36,8 @@
             </div>
           </nav>
     </div>
+    <!-- navbar ends -->
+    <!-- headline starts -->
     <div class="container-fluid">
       <section class="section-1">
     <div class="section-1-container">
@@ -66,6 +69,61 @@
     </div>
   </section>
     </div>
+    <!-- headline ends -->
+    <!-- form starts -->
+    <footer id="contact-section" class="contact-me">
+        <h1>Contact me</h1>
+        <p>
+        If you have an application you are interested in developing,
+        a feature that you need built or a project that needs coding. 
+        I'd love to help with it!
+        </p>
+        <form action="#">
+            <div class="form-row">
+                <div class="form-group col-sm-6">    
+                    <label for="name"></label>
+                    <input
+                        type="text"
+                        id="name"
+                        class="form-control"
+                        maxlength="30"
+                        placeholder="Full Name"
+                        name="username"
+                        required
+                    >      
+                </div>
+
+                <div class="form-group col-sm-6">
+                    <label for="email"></label>
+                    <input
+                        type="email"
+                        id="email"
+                        class="form-control"
+                        placeholder="Email Address"
+                        name="email"
+                        required
+                    >     
+                </div>
+
+                <div class="form-group col-sm-6">
+                    <label for="message"></label>
+                    <textarea 
+                    name="user-message" 
+                    id="message"
+                    class="form-control"
+                    placeholder="Write your message here..." 
+                    max-length="500" required></textarea>
+                </div>
+
+                <section class="submit">
+                    <button type="submit" class="btn btn-primary">
+                      Get in touch
+                    </button>
+                  </section>
+            </div>
+        </form>
+    </footer>
+    <!-- form ends -->
 
 
 
